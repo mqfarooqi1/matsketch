@@ -1,0 +1,106 @@
+cff-version: 1.2.0
+message: "If you use matsketch, please cite it as below, together with the papers for the methods you rely on."
+type: software
+title: "matsketch: Randomized Matrix Computations from Few Entries and Products"
+abstract: >-
+  An R implementation of randomly pivoted Cholesky, the XTrace, XNysTrace and
+  XDiag estimators, and randomized Nystrom preconditioning, combined into a
+  REML fit of genomic variance components that never forms the covariance
+  matrix.
+authors:
+  - family-names: Farooqi
+    given-names: Muhammad
+    email: mqfarooqi@gmail.com
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0000-0003-4918-9791"
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/mqfarooqi1/matsketch"
+url: "https://mqfarooqi1.github.io/matsketch/"
+keywords:
+  - randomized numerical linear algebra
+  - kernel methods
+  - trace estimation
+  - preconditioning
+  - REML
+  - quantitative genetics
+  - R
+references:
+  - type: article
+    title: "Randomly pivoted Cholesky: Practical approximation of a kernel matrix with few entry evaluations"
+    authors:
+      - family-names: Chen
+        given-names: Yifan
+      - family-names: Epperly
+        given-names: Ethan N.
+      - family-names: Tropp
+        given-names: Joel A.
+      - family-names: Webber
+        given-names: Robert J.
+    journal: "Communications on Pure and Applied Mathematics"
+    volume: 78
+    start: 995
+    end: 1041
+    year: 2025
+    doi: "10.1002/cpa.22234"
+  - type: article
+    title: "Embrace rejection: Kernel matrix approximation by accelerated randomly pivoted Cholesky"
+    authors:
+      - family-names: Epperly
+        given-names: Ethan N.
+      - family-names: Tropp
+        given-names: Joel A.
+      - family-names: Webber
+        given-names: Robert J.
+    journal: "SIAM Journal on Matrix Analysis and Applications"
+    volume: 46
+    start: 2527
+    end: 2557
+    year: 2025
+    doi: "10.1137/24m1699048"
+  - type: article
+    title: "XTrace: Making the most of every sample in stochastic trace estimation"
+    authors:
+      - family-names: Epperly
+        given-names: Ethan N.
+      - family-names: Tropp
+        given-names: Joel A.
+      - family-names: Webber
+        given-names: Robert J.
+    journal: "SIAM Journal on Matrix Analysis and Applications"
+    volume: 45
+    start: 1
+    end: 23
+    year: 2024
+    doi: "10.1137/23m1548323"
+  - type: article
+    title: "Randomized Nystrom preconditioning"
+    authors:
+      - family-names: Frangella
+        given-names: Zachary
+      - family-names: Tropp
+        given-names: Joel A.
+      - family-names: Udell
+        given-names: Madeleine
+    journal: "SIAM Journal on Matrix Analysis and Applications"
+    volume: 44
+    start: 718
+    end: 752
+    year: 2023
+    doi: "10.1137/21m1466244"
+  - type: conference-paper
+    title: "Hutch++: Optimal stochastic trace estimation"
+    authors:
+      - family-names: Meyer
+        given-names: Raphael A.
+      - family-names: Musco
+        given-names: Cameron
+      - family-names: Musco
+        given-names: Christopher
+      - family-names: Woodruff
+        given-names: David P.
+    collection-title: "Symposium on Simplicity in Algorithms (SOSA)"
+    start: 142
+    end: 155
+    year: 2021
+    doi: "10.1137/1.9781611976496.16"

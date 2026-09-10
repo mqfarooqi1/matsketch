@@ -1,0 +1,39 @@
+url: https://mqfarooqi1.github.io/matsketch/
+
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#B5460F"
+
+reference:
+  - title: Low-rank approximation
+    contents:
+      - rpchol
+      - plot.rpchol
+      - nystrom
+  - title: Trace and diagonal estimation
+    contents:
+      - trace_est
+      - diag_est
+  - title: Preconditioned linear solves
+    contents:
+      - nystrom_precond
+      - effective_dim
+      - pcg
+      - plot.pcg_result
+  - title: Variance components
+    contents:
+      - reml_sketch
+      - reml_exact
+      - plot.reml_sketch
+  - title: Lazy matrices and simulated data
+    contents:
+      - kernel_matrix
+      - grm_matrix
+      - sim_genomic
+
+articles:
+  - title: Guides
+    navbar: ~
+    contents:
+      - matsketch

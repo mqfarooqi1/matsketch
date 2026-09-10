@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+docs/
+inst/doc
+*.Rcheck/
+matsketch_*.tar.gz
+vignettes/*.html
+vignettes/*.R

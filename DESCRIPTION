@@ -1,0 +1,43 @@
+Package: matsketch
+Title: Randomized Matrix Computations from Few Entries and Products
+Version: 0.1.0
+Authors@R:
+    person("Muhammad", "Farooqi", email = "mqfarooqi@gmail.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4918-9791"))
+Description: Implements recent randomized algorithms that answer questions
+    about a large positive-semidefinite matrix while touching only a small
+    part of it. Randomly pivoted Cholesky builds a low-rank approximation
+    from a few rows of a kernel matrix (Chen, Epperly, Tropp and Webber
+    (2025) <doi:10.1002/cpa.22234>), with an accelerated variant based on
+    rejection sampling (Epperly, Tropp and Webber (2025)
+    <doi:10.1137/24m1699048>). The XTrace, XNysTrace and XDiag estimators
+    recover the trace and diagonal of a matrix that is available only
+    through matrix-vector products (Epperly, Tropp and Webber (2024)
+    <doi:10.1137/23m1548323>), alongside the Hutch++ estimator of Meyer,
+    Musco, Musco and Woodruff (2021) <doi:10.1137/1.9781611976496.16>.
+    Randomized Nystrom preconditioning speeds up the conjugate gradient
+    method for regularized linear systems (Frangella, Tropp and Udell (2023)
+    <doi:10.1137/21m1466244>). These pieces are combined to fit restricted
+    maximum likelihood variance-component models on genomic relationship
+    matrices without forming or factorizing the covariance matrix.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-GB
+Depends:
+    R (>= 4.1.0)
+Imports:
+    graphics,
+    grDevices,
+    stats
+Suggests:
+    knitr,
+    Matrix,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+URL: https://github.com/mqfarooqi1/matsketch
+BugReports: https://github.com/mqfarooqi1/matsketch/issues
+Config/roxygen2/version: 8.1.0
