@@ -8,3 +8,4 @@ inst/doc
 matsketch_*.tar.gz
 vignettes/*.html
 vignettes/*.R
+data-raw/reml-benchmark-session.txt

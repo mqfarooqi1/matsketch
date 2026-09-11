@@ -37,3 +37,4 @@ articles:
     navbar: ~
     contents:
       - matsketch
+      - genomic-reml

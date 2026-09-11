@@ -38,6 +38,7 @@ Suggests:
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)
-URL: https://github.com/mqfarooqi1/matsketch
+URL: https://github.com/mqfarooqi1/matsketch,
+    https://mqfarooqi1.github.io/matsketch/
 BugReports: https://github.com/mqfarooqi1/matsketch/issues
 Config/roxygen2/version: 8.1.0
