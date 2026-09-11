@@ -5,9 +5,16 @@
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/matsketch)](https://CRAN.R-project.org/package=matsketch)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/matsketch)](https://CRAN.R-project.org/package=matsketch)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/mqfarooqi1/matsketch/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mqfarooqi1/matsketch/actions/workflows/R-CMD-check.yaml)
+[![Documentation](https://img.shields.io/badge/docs-pkgdown-B5460F.svg)](https://mqfarooqi1.github.io/matsketch/)
 [![License:
-MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mqfarooqi1/matsketch/blob/main/LICENSE.md)
+MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 <!-- badges: end -->
 
 matsketch answers questions about a large positive-semidefinite matrix,
