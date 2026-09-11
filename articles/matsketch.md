@@ -18,8 +18,9 @@ done without either step. matsketch brings four of these methods to R.
 | Variance components | [`reml_sketch()`](https://mqfarooqi1.github.io/matsketch/reference/reml_sketch.md) | all of the above |
 
 This vignette runs each one on a problem where its advantage is easy to
-see. `vignette("genomic-reml", package = "matsketch")` develops the last
-one in detail.
+see.
+[`vignette("genomic-reml", package = "matsketch")`](https://mqfarooqi1.github.io/matsketch/articles/genomic-reml.md)
+develops the last one in detail.
 
 ``` r
 
@@ -313,7 +314,7 @@ rbind(sketched = c(fit$sigma2, h2 = fit$h2),
 
 At this size the exact fit is still quick. How the two scale, and how
 close they stay, is the subject of
-`vignette("genomic-reml", package = "matsketch")`.
+[`vignette("genomic-reml", package = "matsketch")`](https://mqfarooqi1.github.io/matsketch/articles/genomic-reml.md).
 
 ## References
 
