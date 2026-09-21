@@ -332,7 +332,7 @@ all:</p>
 <span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">sapply</a></span><span class="op">(</span><span class="va">runs</span>, <span class="va">`[[`</span>, <span class="st">"iterations"</span><span class="op">)</span></span>
 <span><span class="co">#&gt;       plain     rank 50 recommended </span></span>
-<span><span class="co">#&gt;        1273         170           2</span></span></code></pre></div>
+<span><span class="co">#&gt;        1232         171           2</span></span></code></pre></div>
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">cols</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"#999999"</span>, <span class="st">"#E69F00"</span>, <span class="st">"#D55E00"</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">runs</span><span class="op">$</span><span class="va">plain</span><span class="op">$</span><span class="va">residuals</span>, log <span class="op">=</span> <span class="st">"y"</span>, type <span class="op">=</span> <span class="st">"l"</span>, lwd <span class="op">=</span> <span class="fl">2</span>, col <span class="op">=</span> <span class="va">cols</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span>,</span>
@@ -343,7 +343,7 @@ all:</p>
 <span><span class="op">}</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/legend.html" class="external-link">legend</a></span><span class="op">(</span><span class="st">"topright"</span>, <span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">runs</span><span class="op">)</span>, col <span class="op">=</span> <span class="va">cols</span>, lwd <span class="op">=</span> <span class="fl">2</span>, bty <span class="op">=</span> <span class="st">"n"</span><span class="op">)</span></span></code></pre></div>
 <p><img src="matsketch_files/figure-html/pcg-plot-1.png" class="r-plt" alt="" width="100%"></p>
-<p>Even a rank of 50 cuts the count from 1273 iterations to 170. At the
+<p>Even a rank of 50 cuts the count from 1232 iterations to 171. At the
 recommended rank the approximation captures nearly all of the matrix
 above the level
 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>μ</mi><annotation encoding="application/x-tex">\mu</annotation></semantics></math>,

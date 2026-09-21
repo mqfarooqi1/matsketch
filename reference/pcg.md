@@ -87,5 +87,5 @@ pre <- nystrom_precond(rpchol(K, k = 60), mu = 1e-3)
 fast <- pcg(K, b, mu = 1e-3, precond = pre)
 c(plain = plain$iterations, preconditioned = fast$iterations)
 #>          plain preconditioned 
-#>            143              3 
+#>            144              3 
 ```

@@ -251,7 +251,7 @@ runs <- list(
 )
 sapply(runs, `[[`, "iterations")
 #>       plain     rank 50 recommended 
-#>        1273         170           2
+#>        1232         171           2
 ```
 
 ``` r
@@ -268,7 +268,7 @@ legend("topright", names(runs), col = cols, lwd = 2, bty = "n")
 
 ![](matsketch_files/figure-html/pcg-plot-1.png)
 
-Even a rank of 50 cuts the count from 1273 iterations to 170. At the
+Even a rank of 50 cuts the count from 1232 iterations to 171. At the
 recommended rank the approximation captures nearly all of the matrix
 above the level $`\mu`$, and the preconditioned system is so well
 conditioned that 2 iterations are enough.
